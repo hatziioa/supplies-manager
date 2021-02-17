@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_increase_checked"
+        android:icon="@drawable/ic_add"
+        android:title="@string/menu_increase_amount"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_decrease_checked"
+        android:icon="@drawable/ic_remove"
+        android:title="@string/menu_decrease_amount"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_select_all"
+        android:icon="@drawable/ic_select_all"
+        android:title="@string/menu_select_all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_reset_checkbox"
+        android:icon="@drawable/ic_reset"
+        android:title="@string/menu_reset_checkbox"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_increase_checked_interactive"
+        android:icon="@drawable/ic_add_circle"
+        android:title="@string/menu_increase_amount_interactive"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_decrease_checked_interactive"
+        android:icon="@drawable/ic_remove_circle"
+        android:title="@string/menu_decrease_amount_interactive"
+        app:showAsAction="ifRoom" />
+
+</menu>

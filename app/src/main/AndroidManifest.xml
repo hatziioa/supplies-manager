@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.suppliesmanager">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.default_searchable"
+                android:value=".SearchableActivity" />
+        </activity>
+
+        <!-- AddEditGroupActivity -->
+        <activity
+            android:name=".AddEditGroupActivity"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <!-- ProductsListActivity -->
+        <activity
+            android:name=".ProductsListActivity"
+            android:label="@string/label_products_list_activity"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- AddEditProductActivity -->
+        <activity
+            android:name=".AddEditProductActivity"
+            android:parentActivityName=".ProductsListActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- BarcodeScannerHelperActivity -->
+        <activity
+            android:name=".BarcodeScannerHelperActivity"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- SearchableActivity -->
+        <activity
+            android:name=".SearchableActivity"
+            android:launchMode="singleTop"
+            android:label="@string/label_searchable_activity"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+    </application>
+
+</manifest>

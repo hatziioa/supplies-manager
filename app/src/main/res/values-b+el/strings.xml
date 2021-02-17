@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Διαχείριση Προμηθειών</string>
+
+    <!-- Activity Labels -->
+    <string name="label_products_list_activity">Διαθέσιμα Προϊόντα</string>
+    <string name="label_searchable_activity">Αποτελέσματα Αναζήτησης</string>
+    <string name="label_add_list">Προσθήκη Λίστας</string>
+    <string name="label_edit_list">Τροποποίηση Λίστας</string>
+    <string name="label_add_product">Εισαγωγή Προϊόντος</string>
+    <string name="label_edit_product">Τροποποίηση Προϊόντος</string>
+
+
+    <!-- Toasts -->
+    <string name="toast_enter_name_barcode">Παρακαλώ εισάγετε όνομα προϊόντος ή barcode.</string>
+    <string name="toast_negative_quantity">Η ποσότητα δεν μπορεί να είναι αρνητική.</string>
+    <string name="toast_enter_quantity">Παρακαλώ εισάγετε την ποσότητα του προϊόντος.</string>
+    <string name="toast_dialog_no_product_quantity">Δεν εισήχθη πόσοτητα. Έξοδος.</string>
+    <string name="toast_something_wrong">Κάτι πήγε στραβά.</string>
+
+    <string name="toast_scan_cancel">Η σάρωση ακυρώθηκε</string>
+
+    <string name="toast_scan_success">Το Barcode σαρώθηκε επιτυχώς.</string>
+    <string name="toast_insert_valid">Παρακαλώ εισάγετε έγκυρο όνομα λίστας.</string>
+    <string name="toast_list_deleted">Η λίστα διαγράφηκε</string>
+    <string name="toast_list_saved">Η λίστα αποθηκεύτηκε</string>
+    <string name="toast_list_not_saved">Η λίστα δεν αποθηκεύτηκε</string>
+    <string name="toast_list_updated">Η λίστα ενημερώθηκε</string>
+    <string name="toast_list_not_updated">Η λίστα δεν μπορεί να ενημερωθεί</string>
+
+    <string name="toast_product_deleted">Το προϊόν διαγράφηκε</string>
+    <string name="toast_product_saved">Το προϊόν αποθηκεύτηκε</string>
+    <string name="toast_product_not_saved">Το προϊόν δεν αποθηκεύθηκε</string>
+    <string name="toast_product_updated">Το προϊόν ενημερώθηκε</string>
+    <string name="toast_products_updated">Τα προϊόντα ενημερώθηκαν</string>
+    <string name="toast_product_not_updated">Το προϊόν δεν μπορεί να ενημερωθεί</string>
+
+    <!-- Menus -->
+    <string name="menu_save">Αποθήκευση</string>
+    <string name="menu_delete_all">Διαγραφή όλων των εγγραφών</string>
+    <string name="menu_search">Αναζήτηση προϊόντος</string>
+    <string name="menu_barcode_search">Αναζητήση προϊόντος με σάρωση barcode</string>
+    <string name="menu_delete_product">Διαγραφή προϊόντος</string>
+    <string name="menu_reset_checkbox">Αναίρεση επιλογής προϊόντων</string>
+    <string name="menu_select_all">Επιλογή όλων των προϊόντων</string>
+    <string name="menu_increase_amount">Αύξηση επιλεγμένων προϊόντων κατά 1</string>
+    <string name="menu_decrease_amount">Μείωση επιλεγμένων προϊόντων κατά 1</string>
+    <string name="menu_increase_amount_interactive">Αύξηση επιλεγμένων προϊόντων διαδραστικά</string>
+    <string name="menu_decrease_amount_interactive">Μείωση επιλεγμένων προϊόντων διαδραστικά</string>
+
+
+    <!-- TextViews -->
+    <string name="text_view_title">Όνομα</string>
+    <string name="text_view_group">Λίστα</string>
+    <string name="text_view_barcode">Barcode</string>
+    <string name="text_view_amount">Ποσότητα</string>
+    <string name="text_view_unit">Μονάδα</string>
+    <string name="text_view_price">Τιμή</string>
+    <string name="text_view_price_per_item">Σύνολο</string>
+    <string name="text_view_description">Περιγραφή</string>
+    <string name="text_view_viewfinder_help">Τοποθετήστε το barcode μέσα στο πλαίσιο για να σαρωθεί.</string>
+
+    <!-- EditViews -->
+    <string name="edit_view_title">Εισάγετε όνομα προϊόντος</string>
+    <string name="edit_view_group">Εισάγετε όνομα λίστας προϊόντος</string>
+    <string name="edit_view_barcode">Εισάγετε barcode προϊόντος</string>
+    <string name="edit_view_amount">Εισάγετε ποσότητα</string>
+    <string name="edit_view_group_name">Εισάγετε όνομα λίστας</string>
+    <string name="edit_view_unit">Εισάγετε μονάδα μέτρησης</string>
+    <string name="edit_view_price">Εισάγετε τιμή</string>
+    <string name="edit_view_description">Εισάγετε περιγραφή</string>
+
+    <!-- ImageButtons  -->
+    <string name="image_button_edit">Τροποποίηση</string>
+    <string name="image_button_decrease">Μείωση ποσότητας κατά 1</string>
+    <string name="image_button_increase">Αύξηση ποσότητας κατά 1</string>
+
+    <!-- Search -->
+    <string name="search_hint">Αναζητήστε προϊόντα</string>
+    >
+    <!-- Alert Dialog -->
+    <string name="dialog_message_delete_group">Διαγραφή αυτή της λίστας και όλων των προϊόντων της;</string>
+    <string name="dialog_message_delete_product">Διαγραφή αυτού του προϊόντος;</string>
+    <string name="dialog_title">Επιβεβαίωση διαγραφής</string>
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_neutral">Δώστε τιμή ανά προϊόν</string>
+    <string name="dialog_negative">Άκυρο</string>
+    <string name="dialog_title_increase_quantity">Αύξηση ποσότητας του προϊόντος:</string>
+    <string name="dialog_title_decrease_quantity">Μείωση ποσότητας του προϊόντος:</string>
+    <string name="dialog_title_increase_selected">Αύξηση ποσότητας των επιλεγμένων προϊόντων κατά 1;</string>
+    <string name="dialog_title_decrease_selected">Μείωση ποσότητας των επιλεγμένων προϊόντων κατά 1;</string>
+
+
+    <!-- Nav Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Διαχείριση Προμηθειών</string>
+    <string name="nav_header_subtitle">Σύστημα Διαχείρισης Οικιακών Προμηθειών</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

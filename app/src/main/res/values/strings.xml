@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Supplies Manager</string>
+
+    <!-- Activity Labels -->
+    <string name="label_products_list_activity">Available Products</string>
+    <string name="label_searchable_activity">Search Results</string>
+    <string name="label_add_list">Add List</string>
+    <string name="label_edit_list">Edit List</string>
+    <string name="label_add_product">Add Product</string>
+    <string name="label_edit_product">Edit Product</string>
+
+
+    <!-- Toasts -->
+    <string name="toast_enter_name_barcode">Please enter a product name or a barcode</string>
+    <string name="toast_negative_quantity">Quantity can not be negative</string>
+    <string name="toast_enter_quantity">Please enter product quantity</string>
+    <string name="toast_dialog_no_product_quantity">No product quantity entered. Exiting.</string>
+    <string name="toast_something_wrong">Something went wrong</string>
+
+    <string name="toast_scan_cancel">Scan Cancelled</string>
+
+    <string name="toast_scan_success">Barcode scanned and set at barcode field.</string>
+    <string name="toast_insert_valid">Please insert a valid list name.</string>
+    <string name="toast_list_deleted">List deleted</string>
+    <string name="toast_list_saved">List saved</string>
+    <string name="toast_list_not_saved">List not saved</string>
+    <string name="toast_list_updated">List updated</string>
+    <string name="toast_list_not_updated">List can not be updated</string>
+
+    <string name="toast_product_deleted">Product deleted</string>
+    <string name="toast_product_saved">Product saved</string>
+    <string name="toast_product_not_saved">Product not saved</string>
+    <string name="toast_product_updated">Product updated</string>
+    <string name="toast_products_updated">Products updated</string>
+    <string name="toast_product_not_updated">Product can not be updated</string>
+
+    <!-- Menus -->
+    <string name="menu_save">Save</string>
+    <string name="menu_delete_all">Delete all entries</string>
+    <string name="menu_search">Search for a product</string>
+    <string name="menu_barcode_search">Search barcode</string>
+    <string name="menu_delete_product">Delete product</string>
+    <string name="menu_reset_checkbox">Uncheck all products</string>
+    <string name="menu_select_all">Check all products</string>
+    <string name="menu_increase_amount">Increase selected products by 1</string>
+    <string name="menu_decrease_amount">Decrease selected products by 1</string>
+    <string name="menu_increase_amount_interactive">Interactively increase selected products</string>
+    <string name="menu_decrease_amount_interactive">Interactively decrease selected products</string>
+
+
+    <!-- TextViews -->
+    <string name="text_view_title">Name</string>
+    <string name="text_view_group">List</string>
+    <string name="text_view_barcode">Barcode</string>
+    <string name="text_view_amount">Quantity</string>
+    <string name="text_view_unit">Unit</string>
+    <string name="text_view_price">Price</string>
+    <string name="text_view_price_per_item">Total</string>
+    <string name="text_view_description">Description</string>
+    <string name="text_view_viewfinder_help">Place a barcode inside the rectangle to scan it.</string>
+
+    <!-- EditViews -->
+    <string name="edit_view_title">Enter product name</string>
+    <string name="edit_view_group">Enter product group</string>
+    <string name="edit_view_barcode">Enter product barcode</string>
+    <string name="edit_view_amount">Enter available quantity</string>
+    <string name="edit_view_group_name">Enter list name</string>
+    <string name="edit_view_unit">Enter unit</string>
+    <string name="edit_view_price">Enter price</string>
+    <string name="edit_view_description">Enter Description</string>
+
+    <!-- ImageButtons  -->
+    <string name="image_button_edit">Edit</string>
+    <string name="image_button_decrease">Decrease quantity by 1</string>
+    <string name="image_button_increase">Increase quantity by 1</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search products</string>
+    >
+    <!-- Alert Dialog -->
+    <string name="dialog_message_delete_group">Delete this list and all its products?</string>
+    <string name="dialog_message_delete_product">Delete this product?</string>
+    <string name="dialog_title">Confirm Deletion</string>
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_neutral">Set manually</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="dialog_title_increase_quantity">Increase quantity of product:</string>
+    <string name="dialog_title_decrease_quantity">Decrease quantity of product:</string>
+    <string name="dialog_title_increase_selected">Increase quantity of all selected products by 1?</string>
+    <string name="dialog_title_decrease_selected">Decrease quantity of all selected products by 1?</string>
+
+    <!-- Nav Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Supplies Manager</string>
+    <string name="nav_header_subtitle">Simple Inventory Management System</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
